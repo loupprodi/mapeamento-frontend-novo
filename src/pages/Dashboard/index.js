@@ -5,7 +5,7 @@ const DashboardScreen = () => {
   return (
     <View style={{backgroundColor: 'blue'}}>
       <StatusBar />
-      <Text>Teste</Text>
+      <Text>Dashboard bem vindo</Text>
     </View>
   );
 };
