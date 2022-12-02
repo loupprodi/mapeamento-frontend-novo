@@ -18,6 +18,12 @@ Este projeto foi desenvolvido com finalidade Trabalho de Conclusão de Curso da 
 - Qualquer IDE capaz de rodar aplicativo em react native
 
   - [visual studio code](https://code.visualstudio.com/)
+  Comandos:
+  -yarn install
+  -yarn android
+  -yarn start
+  
+  Obs: Caso seja usuário de linux, rode com o sudo
 
 ## Tecnologias utilizada
 
