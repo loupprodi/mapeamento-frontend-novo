@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
     width: 300,
     borderWidth: 1,
     borderColor: '#999',
-    borderRadius: 5,
+    borderRadius: 25,
     marginBottom: 8,
     padding: 10,
   },
@@ -26,7 +26,7 @@ export const styles = StyleSheet.create({
   button: {
     width: 300,
     height: 50,
-    borderRadius: 5,
+    borderRadius: 25,
     backgroundColor: '#3cb2ca',
     justifyContent: 'center',
     alignItems: 'center',
@@ -41,5 +41,16 @@ export const styles = StyleSheet.create({
   buttonSubtitle: {
     color: '#7159c1',
     fontWeight: 'bold',
+  },
+
+  registerContent: {
+    marginTop: 15,
+    alignItems: 'center',
+  },
+
+  image: {
+    width: 150,
+    height: 150,
+    marginBottom: 20,
   },
 });
