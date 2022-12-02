@@ -4,6 +4,7 @@ export const styles = StyleSheet.create({
   container: {
     paddingLeft: 20,
     paddingRight: 20,
+    paddingBottom: 35,
   },
   listArea: {
     marginTop: 30,

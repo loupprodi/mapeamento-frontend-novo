@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
-import {View, TouchableOpacity, Text, TextInput} from 'react-native';
+import {View, TouchableOpacity, Text, TextInput, Image} from 'react-native';
 
 import {styles} from './styles';
 import {signIn} from '../../services/requests';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const SignInScreen = ({navigation}) => {
   const [email, setEmail] = useState('');
@@ -43,6 +42,10 @@ const SignInScreen = ({navigation}) => {
 
   return (
     <View style={styles.container}>
+      <Image
+        source={require('../../assets/img/logo.jpeg')}
+        style={styles.image}
+      />
       <Text style={styles.textLogin}>Login</Text>
       <TextInput
         placeholder="Digite o email..."
